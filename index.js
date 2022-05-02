@@ -1,21 +1,13 @@
-// var precio, descuento, totaldescuento, totalacobrar
+var nombre = prompt('Hola, ¿cuál es su nombre?:','');
 
-// precio=parseFloat(prompt ("Indique el precio"));
-// descuento=parseFloat(prompt("Indique % de descuento"));
+var metros = prompt(nombre("Por favor, indique la cantidad de metros y le aconsejaré qué medio de transporte utilizar"));
 
-// totaldescuento = precio*descuento/100
-// totalacobrar = precio-totaldescuento;
+if(metros<=1000){document.write("<h2>Le recomiendo ir a pié</h2>");}
 
-// alert ("El descuento es de: " + totaldescuento);
-// alert ("El total a cobrar es de: " + totalacobrar);
-// document.write("El descuento es de: " + totaldescuento);
-// document.write("<br><br>El total a cobrar es de: " + totalacobrar);
+else if (metros<=10000){document.write("<h2>Debería subir a una bicicleta</h2>");}
 
-// let metros = prompt("Por favor, indique la cantidad de metros y le aconsejaré que medio de transporte utilizar");
+else if (metros<=30000){document.write("<h2>Debería tomar un colectivo</h2>");}
 
-// if(metros<=1000){alert("Le recomiendo ir a pié");
-// }
-// else if (metros<=10000){alert("Debería subir a una bicicleta");}
-// else if (metros<=30000){alert("Debería tomar un colectivo");}
-// else if (metros<=100000){alert("Tome un taxi o remisse");}
-// else (metros>=10000);{alert("Lo mejor sería viajar en avión");}
+else if (metros<=100000){document.write("<h2>Tome un taxi o remisse</h2>");}
+
+else (metros>=100000);{document.write("<h2>Lo mejor sería viajar en </h2>");}
