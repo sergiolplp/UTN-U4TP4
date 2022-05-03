@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;   
+    display: flex;      
+    align-items: center;
+        }
+
+        /* Intenté escribir menos còdigo aunando todos los formatos comunes de los H, pero no tuve exito y por eso los separé */
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #154360;
+    width: 600px;    
+    height: 300px;
+    padding: auto;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-image: url(caminar.jpg); 
+}
+
+h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #641E16;
+    width: 600px;    
+    height: 300px;
+    padding: auto;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-image: url(bicicleta.jpg);
+}
+
+h4{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #145A32;
+    width: 600px;    
+    height: 300px;
+    padding: auto;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-image: url(colectivo.jpg);
+}
+
+h5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #17202A;
+    width: 600px;    
+    height: 300px;
+    padding: auto;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-image: url(remisse.jpg);
+}
+
+h6{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #9B59B6;
+    width: 600px;    
+    height: 300px;
+    padding: auto;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-image: url(avion.jpg);
+}
