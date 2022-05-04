@@ -9,7 +9,9 @@ body{
     align-items: center;
         }
 
-        /* Intenté escribir menos còdigo aunando todos los formatos comunes de los H, pero no tuve exito y por eso los separé */
+        /* Intenté escribir menos còdigo aunando todos los formatos comunes de los H, pero no tuve exito y por eso los separé 
+        Lo otro que no pude resolver es volver al inicio al terminar el ejercicio. Lo resolví con un machetazo haciendo que los links
+        de se abrieran en otra ventana.*/
 
 h2{
     display: flex;
@@ -17,7 +19,7 @@ h2{
     align-items: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    color: #154360;
+    color: #0A0A4B;
     width: 600px;    
     height: 300px;
     padding: auto;
@@ -30,9 +32,10 @@ h3{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    color: #641E16;
+    color: #D50B0B;
     width: 600px;    
     height: 300px;
     padding: auto;
@@ -61,9 +64,10 @@ h5{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    color: #17202A;
+    color: #D50B0B;
     width: 600px;    
     height: 300px;
     padding: auto;
@@ -76,9 +80,10 @@ h6{
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
-    color: #9B59B6;
+    color: #31064D;
     width: 600px;    
     height: 300px;
     padding: auto;
