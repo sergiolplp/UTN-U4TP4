@@ -1,0 +1,25 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: black;   
+    display: flex;      
+    align-items: center;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    color: #E8000B;
+    width: 600px;    
+    height: 300px;
+    padding: auto;
+    margin: 100px auto;
+    border-radius: 10px;
+    background-color: #6495ed;
+}
